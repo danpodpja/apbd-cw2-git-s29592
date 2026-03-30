@@ -4,7 +4,7 @@ public abstract class User
 {
     public Guid   Id        { get; } = Guid.NewGuid();
     public string FirstName { get; set; }
-    public string LastName  { get; set; }
+    public string LastName  { get; set; }   
     public string FullName  => $"{FirstName} {LastName}";
 
     protected User(string firstName, string lastName)

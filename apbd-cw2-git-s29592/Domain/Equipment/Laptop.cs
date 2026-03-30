@@ -1,13 +1,13 @@
 ﻿namespace apbd_cw2_git_s29592.Domain.Equipment;
 
-public class Laptop : Equipment
+public class Laptop : EquipmentA
 {
-    public int RamGb      { get; set; }
-    public int StorageGb  { get; set; }
+    public int RamGb { get; set; }
+    public int StorageGb { get; set; }
 
     public Laptop(string name, int ramGb, int storageGb) : base(name)
     {
-        RamGb     = ramGb;
+        RamGb = ramGb;
         StorageGb = storageGb;
     }
 
