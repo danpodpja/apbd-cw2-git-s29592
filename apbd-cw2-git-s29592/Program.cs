@@ -1,2 +1,5 @@
 ﻿
-Console.WriteLine("Uczelniana wypożyczalnia sprzętu");
+public static class MainClass
+{
+    
+}
