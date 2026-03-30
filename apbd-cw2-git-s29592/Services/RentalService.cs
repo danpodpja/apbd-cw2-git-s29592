@@ -74,11 +74,11 @@ public class RentalService
         ╔══════════════════════════════════════════╗
         ║       RAPORT WYPOŻYCZALNI SPRZĘTU        ║
         ╠══════════════════════════════════════════╣
-        ║  Wszystkie wypożyczenia : {total,5}           ║
-        ║  Aktywne                : {active,5}           ║
-        ║  Przeterminowane        : {overdue,5}           ║
-        ║  Zwrócone               : {returned,5}           ║
-        ║  Dostępny sprzęt        : {available,5}           ║
+        ║  Wszystkie wypożyczenia : {total,5}          ║
+        ║  Aktywne                : {active,5}          ║
+        ║  Przeterminowane        : {overdue,5}          ║
+        ║  Zwrócone               : {returned,5}          ║
+        ║  Dostępny sprzęt        : {available,5}          ║
         ║  Suma naliczonych kar   : {totalPenalty,5:F2} PLN      ║
         ╚══════════════════════════════════════════╝
         """;
